@@ -9,7 +9,7 @@ class Dog
     @@all << self
   end
 
-  def self.all
+  def self.all #can also put #=> puts @@all.map {|pup| pup.name}
     @@all.each do |pup|
       puts pup.name
     end
